@@ -1,0 +1,14 @@
+https://en.wikipedia.org/wiki/Apache_HTTP_Server
+https://en.wikipedia.org/wiki/Hosts_%28file%29
+https://www.microsoft.com/windows/virtual-pc/
+https://en.wikipedia.org/wiki/Resolv.conf
+https://en.wikipedia.org/wiki/Uniform_resource_identifier
+https://en.wikipedia.org/wiki/Uniform_resource_locator
+https://en.wikipedia.org/wiki/Uniform_resource_name
+https://en.wikipedia.org/wiki/HTML
+XML HTM
+https://en.wikipedia.org/wiki/Phpmyadmin	SQLSMS
+https://en.wikipedia.org/wiki/MySQL			Transact-SQL
+https://en.wikipedia.org/wiki/MD5
+https://en.wikipedia.org/wiki/SHA-1
+CORS

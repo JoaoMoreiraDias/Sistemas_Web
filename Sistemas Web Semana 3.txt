@@ -1,0 +1,29 @@
+O JS não tem classes.
+
+As variaveis de JS podem armazenar todos os tipos de variaveis, mas só um em qualquer altura.
+
+O JS não pode ter chars, mas pode ter arrays de 1.
+
+As variaveis do JS tenhem sempre um valor, mesmo sem nehum declarado. Já vem inicializado a:
+0
+""
+false
+null...
+
+Vaiaveis não inicializadas no JS:
+undefined undefined CERTO
+object null         ERRADO
+
+alert() é mau para shotgun debug!
+
+Alternativa ao alert(), o Alert Consol.
+
+Não é alert(), é window.alert()!
+
+Loosely typed, a variavel é declarada e tudo pode ser metido lá a pontos differentes.
+
+Scope de variaveis, fade de funções é geral, dentro é igual ao Java.
+
+O JS puxa todas as variaveis "para cima" aka. Variable Hoisting. É melhor programar honestamente como acontece na ralidade do que programar "como éra suposto ser" e enganar quem lé o nosso codigo.
+
+No JS é possivel por funcies dentro de funcoes, por isso convem ter alinhamento de codigo bom.

@@ -1,0 +1,29 @@
+/*
+	Sistemas Web
+	Estilos CSS, exemplo problemas para suportar IE8.
+	Pode-se usar cores em vários formatos:
+
+		Nomes (16 cores)					: red;
+		Hexadecimal (4096 cores)			: #f00;
+		Hexadecimal (16.1m cores)			: #ff0000;
+		RGB (16.1m cores)					: rgb(255, 0, 0);
+		RGBA (16.1m cores + transparência)	: rgba(255, 0, 0, 1);
+
+	Para suportar IE8 deverão ser utilizados os primeiros três formatos.
+	Podem ser repetidas as propriedades com diferentes formatos pois a
+	última (válida para o browser) é que será utilizada. Isto só é
+	possível porque todos os browsers ignoram selectors e propriedades
+	que desconhecem.
+
+	Se apenas fosse dada a segunda "background-color" abaixo, o IE8 iria
+	continuar com a cor de fundo prédefinida para o body (#fff);
+*/
+
+body {
+	margin			: 2em;
+	background-color: #ff7f7f; /* todos os browsers reconhecem e aplicam esta propriedade */
+	background-color: rgba(255, 0, 0, 0.5); /* propriedade ignorada pelo IE8 logo continua activa a anterior */
+	font-size		: 5em;
+	font-family		: sans-serif;
+	text-align		: center;
+}

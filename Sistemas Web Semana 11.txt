@@ -1,0 +1,18 @@
+Niveis de funcionamento offline - não supportado por IE8+
+---
+
+todas as aplicaçõens web tenhem que ter um modo offline.
+
+3 niveis de supporte (quam bem funcionam sem net):
+-inexistente
+-basico
+-suportado
+
+erros em onloads, e a ir para paginas novas, nao há erros dentro do js que corre no browser.
+
+---
+App cashe
+---
+guradar documentos de uma webapp para poderesm se utilizados em modo offline.
+
+

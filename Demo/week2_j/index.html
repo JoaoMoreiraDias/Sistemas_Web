@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<!--
+	Sistemas Web
+	Criar elementos dinamicamente. Elementos criados não precisam de
+	ser estáticos: Cada botão tem funcionalidade para criar um novo
+	botão.
+
+	Demonstração da keyword "this".
+-->
+
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>TSW week 2 j</title>
+
+	<script src='scripts.js'></script>
+</head>
+<body>
+	<!-- quando o botão é clicado, é chamada a função com nome
+	"spawn" e é passado como parâmetro o objecto que despoletou
+	o evento -->
+	<button onclick='spawn(this);'>criar novo botão</button>
+</body>
+</html>

@@ -1,0 +1,100 @@
+HTTP, Web, Browsers 
+1)  Quais são os três browsers mais uti l izados em computadores (desktop/notebooks)? 
+Chrome, Internet Explorer, Firefox
+2)  Quais são os três browsers mais uti l izados em dispositivos móveis (telemoveis/tablets)? 
+Safari, Android Browser, Opera mini
+3)  O que di ferencia um website de uma apl icação web? 
+Aplicação web sobre a WWW tem muita interação pouca informação. Um website é uma plataforma de destribuição de informação, pouca informação.
+4)  Argumente contra e a favor do uso de HTTP em apl icações de acordo com as quatro principais propriedades.
+Propriedades relativas para aplicações:
+-Open standard
+V	Uso livre, aberto
+D	Segurança
+-Stateless
+V	Mais rapido e simples (nao tem que usar https que é mais pesado)
+D	Dados nao sao guardados, estado não é mantido. Session riding (segurança).
+-Caching
+V	Mais rapido opter informação depois da primeira vez
+D	Pode complicar a cronometração porque o caching ja esta a interferir com o tempo de espera. (no development de websites)
+-Point-to-point
+V	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+D   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+5)  Dê cinco exemplos de verbos do HTTP.
+GET, POST, PUT, DELETE, TRACE
+6)  Os códigos de resposta HTTP podem ser separados em cinco grupos. Defina brevemente cada um dos grupos.
+1xx Informational - Request recebido, continuando com o processo.
+2xx Success - Acção do cliente foi recebido, aceite e processado com successo.
+3xx Redirection - O cliente tem que fazer outra acção para completar o request.
+4xx Client Error - Cliente tem um caso com um erro.
+5xx Server Error - O servidor falhou um request que estava valido.
+7)  Dê cinco exemplos de informação enviada no header HTTP.
+Accept, Connect, Cookie, Date, Host
+
+
+
+
+
+HTML 5 
+1)  O DOCTYPE é obrigatóro ou opcional? 
+É obrigatorio excepto em XML, mas pode funcionar sem ele.
+2)  Para evitar um tipo de ataque, o que é necessário incluir nos primeiros 1024 bytes da página? 
+Tag "meta" com o encoding correcto.
+3)  Dê cinco exemplos de elementos novos. 
+article, command, footer, header, time.
+4)  Dê cinco exemplos de novos tipos de input.
+color, date, datetime, email, time.
+5)  Descreva o que mudou no atributo id. 
+Muitas restriçõens foram revocadas. eg: Todos os caracteres podem ser usados agora.
+6)  Para que o IE8 possa apl icar esti los CSS aos novos elementos é preciso usar um polyfi l l , que normalmente  é o 
+html5shiv. Como apenas este browser precisa de carregar este polyfi l l como servir este ficheiro apenas ao IE8?  
+<!--[if lte IE 8]> ~~~~~~ <![endif]-->
+
+
+
+
+CSS 
+1)  Defina especificidade.
+Especificar em que elemneto é que a regra de CSS se vai aplicar.
+2)  Dês três exemplos de regras que influenciam a equação de especificidade. 
+#conteudo p.nivelc
+#conteudo p
+p
+3)  Descreva os seguintes selectors: 
+a)  img[alt$=a]
+Define que a é a descrição da imagem.
+b)  li:odd p 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+c)  p:nth-chi ld(2n +1) 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+d)  input:not([required]) 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+e)  ulli.selected p:before 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+4)  O que é uma vendor-extension? 
+É uma implementação de CSS que é especifica e propriataria de so um browser.
+5)  Qual a diferença entre as seguintes duas propriedades (com o val or apresentado): display: none; visibility: hidden; 
+visibility: hidden - Esconde o elemente, mas ele fica a ocupar espaço na pagina.
+display: none - Remove completamente o elemento da pagina mas nao do codigo HTML.
+
+
+
+
+Javascript 
+1)  Qual é a di ferença principal entre o JavaScript e o ECMAScript? 
+ECMAScript é uma linguagem e um standard, JavaScript é um "dialecto" e implementação de ECMAScript.
+2)  Para que serve o module-pattern?
+O module-pattern é so um padrão de programação de JavaScript.
+3)  O que deve usar, enquanto desenvolve a aplicação, em vez do alert()? 
+console.log()
+4)  Qual é a di ferença entre undefined e nul l?
+undefined é um tipo de uma variavel que não foi declarada, enquanto uma variavel a null esta declarada so que tem um valor nullo. 
+5)  Indique o principal problema da propriedade Type Coerciveness. 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+6)  Explique como o variable hoisting modi fica variable scope.
+Variable hoisting passa o scope da variavel para fora do elemento onde se encontra para o topo da função, aumentado o scope para a função toda.
+7)  Exempl i fique de duas maneiras como adicionar um novo elemento a um array. 
+Usando o metudo push() ou Array[index]=novo;
+8)  Escreva código para um dado array sejam impressos todos os seus elementos. 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+9)  Escreva código para um dado objecto seja adicionado um método que imprima para a consola uma string qualquer. 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

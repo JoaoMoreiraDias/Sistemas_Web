@@ -1,0 +1,16 @@
+/*
+	Sistemas Web
+	Demonstração de closures, estilos básicos.
+*/
+
+h1 {
+	text-align: center;
+}
+table {
+	width: 800px;
+	margin: auto;
+}
+
+.selected {
+	background: transparent url('okay.png') no-repeat 100% 50%;
+}

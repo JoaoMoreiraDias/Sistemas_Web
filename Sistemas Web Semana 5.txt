@@ -1,0 +1,51 @@
+AJAX = Asyncronous JavaScript and XML
+
+---
+
+Aplicação web = Ferramenta sobre a WWW, Muita interação pouca informação
+Web Site = Plataforma de destribuição de informação, pouca informação
+(Isto é uma revisao, verificar em notas anteriors se existirem)
+
+---
+
+Modelo web sem AJAX, pedido e resposta, muitos refreshes e tempo morto.
+Problemas com isto: Slides.
+
+Modelo web com ajax, a pagina nao sao do utilizador, os pedidos AJAX correm no fundo e não obrigão a carregar a pagina toda outra vez.
+
+AJAX chamava-se Dynamic-HTML (acho eu)
+
+Estudar addEventListener()
+
+---
+
+XML = "Qualquer coisa" markup language.
+
+XML deixa estruturar tudo. Não so Hyper-texto.
+
+DOM=Document Object Model
+
+XML em teoria tem tudo que o HTML tem.
+
+XSLT = Extensible Stylesheet Language Transformations.
+Transforma XML em HTML. XML->HTML.
+
+XHTML = HTML com regras do XML para o XSLT funcionar em ambas as tirecçõens.
+
+É mais facil JSON que XML (buscar valores, transformar dados).
+
+
+XML <-> JSON
+http://jsontoxml.utilities-online.info/
+
+JSON ENCODE -> Stringify
+JSON DECODE -> PARSE
+
+AJAX tem problemas com:
+-bookmarks
+-back button
+-pessoas com deficiencia visuais
+
+---
+
+Same-origine policy: regra de honra/segurança que diz que so se pode fazer pedidos ajax do contiudo do mesmo site, para evitar pedidod JS para ir buscar websites externos inteiros. Aumenta o risto de DDoS.

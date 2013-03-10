@@ -1,0 +1,46 @@
+Reset do CSS - Substituir estilos pré-definidos por omissão. Deve ser utilizado CSS para normalizar todos os estilos que os browser pre-defniem.
+
+---
+
+Javascript
+
+Linguagens interpretadas não sao compiladas: Javascript, Python, .BAT... .
+Executado no cliente.
+Não esta dependente de SO ou arquitectura.
+Windows 8 apps podem ser criadas com HTML5/CSS3/Javascript.
+Não mais lentas que linguagens tradicionais.
+
+NodeJS - Framework para gerir javascript no servidor, como subestituto para ASP/PHP. Pode ser um cluster de servidores.
+É mais lento que PHP.
+
+ECMAScript
+
+Linguagem standardizada.
+Javascript, CoffeeScript, ActionScript...
+Suportado por browsers modernos.
+
+Recursos de Javascript:
+http://developer.mozilla.org
+
+Ferramenta:
+JSlint - Passar por lá codigo para corrigir codigo.
+
+Codigo ou no src="" tem prioridade sobre elemnetos sobre <script>. Não se deve usar os do	s.
+
+Trabalho: o Javascript deve estar num ficheiro externo.
+<script src='scripts.js'></script>
+
+Os scripts devem ser imortados em linhas differentes do codigo, de cima para baixo é a ordem de como são executadas. Tipo incluir 2 blocos de codigo de ficheiros differentes que são abertos em alturas differentes, são todos copy pasted em ordem. Mas é fragil porque mudar a ordem occorem erros.
+
+Browser sniffing não deve ser feito, devemos testar por features.
+
+Operador "+" concatena scripts, solução, X*1, ao multiplicar por 1 ou parseint ou .valueAsNumber (Não suportado em alguns IE).
+eg. 4 + 4 = 44 - 4*1 + 4*1 = 8
+
+Obejecto window, so existe num browser, não exite no NodeJS. (Não uportado no IE8).
+
+A re-introduction to Javascript - Mozilla DEveloper Network, Convem ler.
+
+window.addeventListner('load', init) - > quando a janela toda ja estiver pronta, corerr o metudo init.
+
+vai ser preciso usar o module pattern para o trabalho final

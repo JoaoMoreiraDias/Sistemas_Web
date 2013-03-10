@@ -1,0 +1,4 @@
+-Escolher fonte de dados
+-Escolher framework
+-Escolher APIs
+-Fazer mais que 1a coisa para cada criterio, eg. mais que 1 API, 1 JSON.

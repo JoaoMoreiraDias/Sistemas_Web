@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>SW semana 2</title>
+	<meta charset='utf-8'/>
+	<link rel="stylesheet" type="text/css" href="estilolab2.css">
+	<script src="jslab2.js"></script>
+</head>
+<body>
+	<!--<div class="login"><button onclick="toggle_visibility()">Login</button></div>-->
+	<input type='button' id='botaoLogin' onclick="mostrar()" value='Login'/>
+	<form id="formLogin" onsubmit="validar()" novalidate>
+		<h1>LOGIN</h1>
+		<label>email <input type='email' id='email' required /></label>
+		<label>password <input type='password' id='password' required /></label>
+		<label>date <input type='date' id='date' required /></label>
+		<label>captcha: 1+1= <input type='captcha' id='captcha' required /></label>
+		<input type='submit' id='submit' value='entrar'/>
+	</form>
+</body>
+</html>

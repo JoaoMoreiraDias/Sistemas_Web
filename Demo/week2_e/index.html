@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!--
+	Sistemas Web
+	Aplicação para somar dois números utilizando o novo tipo de INPUT
+	do HTML5 e javascript sem usar HTML event properties.
+
+	Como a página ainda não carregou quando o código é executado no
+	HEAD, demonstra de onde vem as "dicas" para colocar o Javascript
+	no fim da página. Isto é uma má solução em termos de design.
+-->
+
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>SW week 2 e</title>
+
+	<!-- se estivesse aqui, como deve estar, não iria funcionar
+	<script src='scripts.js'></script>
+	-->
+</head>
+<body>
+	<input id='n1' type='number' min='0' max='99' />
+	+
+	<input id='n2' type='number' min='0' max='99' />
+	<input id='btn' type='button' value='=' />
+	<span id='s'></span>
+
+	<script src='scripts.js'></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[{"value": "cm3", "nome" : "cubic centimeter (cm3)"},
+{"value": "ft3", "nome" : "cubic foot (ft3)"},
+{"value": "gal", "nome" : "US liquid gallon (gal)"},
+{"value": "in3", "nome" : "cubic inch (in3)"},
+{"value": "l", "nome" : "liter (l)"},
+{"value": "m3", "nome" : "cubic meter (m3)"},
+{"value": "oz", "nome" : "US liquid ounce (oz)"},
+{"value": "pt", "nome" : "US liquid pint (pt)"},
+{"value": "tbsp", "nome" : "tablespoon (tbsp)"},
+{"value": "tsp", "nome" : "teaspoon (tsp)"},
+{"value": "yd3", "nome" : "cubic yard (yd3)"}]

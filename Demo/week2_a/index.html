@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<!--
+	Sistemas Web
+	Página com script externo. Excepto durante o desenvolvimento, o
+	script tem sempre que ficar em JS externo para maior
+	flexibilidade.
+
+	Em HTML5 não é necessário especificar o tipo do ficheiro de
+	script: assume-se que é text/javascript.
+
+	Mais uma vez, o elemento SCRIPT é fechado, só que agora com tag de
+	fecho explícita pois o standard (infelizmente) não contempla poder
+	ser fechado implicitamente com <script />
+
+	Esta página demonstra como o browser executa imediatamento código
+	Javascript encontrado quando faz o parsing da página.
+-->
+
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>SW week 2 a</title>
+
+	<script src='scripts.js'></script>
+</head>
+<body>
+	Este texto só aparece depois de fechada a janela ALERT.
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>SW week 1 c</title>
+
+	<link rel='stylesheet' href='styles.css' />
+</head>
+<body>
+<!--
+	Alguns destaques sobre esta demonstração:
+
+	Elemento LABEL serve para auxiliar o utilizar a focar no input desejado.
+
+	Elementos INPUT têm o atributo "required" para dizer ao browser que é
+		obrigatório dar um qualquer valor (apenas úteis para browser que
+		suportam HTML 5 form validation: por exemplo o IE8/9 não suportam).
+
+	Novo tipo de elemento INPUT: "email". Os browsers que suportam form
+		validation, também validam que o que o utilizador introduz é um
+		email válido. Existem outros novos tipos: data, time, regex, number,
+		color, e outros.
+
+	O texto do elemento H1 está em minúsculas mas é apresentado todo em
+		maiúsculas através de CSS.
+
+	Não existem elementos supérfulos para a apresentação: não foram
+		utilizados BR, TABLE, etc.
+-->
+	<form>
+		<h1>login</h1>
+		<label>email <input type='email' required /></label>
+		<label>password <input type='password' required /></label>
+		<input type='submit' value='entrar' />
+	</form>
+</body>
+</html>

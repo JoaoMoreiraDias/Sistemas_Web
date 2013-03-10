@@ -1,0 +1,39 @@
+{
+	"cols": [
+	{"id":"","label":"Tempo","pattern":"","type":"number"},
+	{"id":"","label":"Total","pattern":"","type":"number"},
+	{"id":"","label":"Mascolino","pattern":"","type":"number"},
+	{"id":"","label":"Masculino","pattern":"","type":"number"}
+	],
+	"rows": [
+	{"c":[{"v":1983,"f":null},{"v":7.6,"f":null},{"v":4.6,"f":null},{"v":11.6,"f":null}]},
+	{"c":[{"v":1984,"f":null},{"v":8.2,"f":null},{"v":5.8,"f":null},{"v":11.6,"f":null}]},
+	{"c":[{"v":1985,"f":null},{"v":8.5,"f":null},{"v":6.3,"f":null},{"v":11.6,"f":null}]},
+	{"c":[{"v":1986,"f":null},{"v":8.3,"f":null},{"v":6.4,"f":null},{"v":10.9,"f":null}]},
+	{"c":[{"v":1987,"f":null},{"v":6.8,"f":null},{"v":5.2,"f":null},{"v":9.1,"f":null}]},
+	{"c":[{"v":1988,"f":null},{"v":5.6,"f":null},{"v":4,"f":null},{"v":7.8,"f":null}]},
+	{"c":[{"v":1989,"f":null},{"v":5,"f":null},{"v":3.4,"f":null},{"v":7,"f":null}]},
+	{"c":[{"v":1990,"f":null},{"v":4.6,"f":null},{"v":3.2,"f":null},{"v":6.5,"f":null}]},
+	{"c":[{"v":1991,"f":null},{"v":4.1,"f":null},{"v":2.7,"f":null},{"v":5.8,"f":null}]},
+	{"c":[{"v":1992,"f":null},{"v":4.1,"f":null},{"v":3.4,"f":null},{"v":4.9,"f":null}]},
+	{"c":[{"v":1993,"f":null},{"v":5.5,"f":null},{"v":4.6,"f":null},{"v":6.5,"f":null}]},
+	{"c":[{"v":1994,"f":null},{"v":6.8,"f":null},{"v":5.9,"f":null},{"v":7.8,"f":null}]},
+	{"c":[{"v":1995,"f":null},{"v":7.1,"f":null},{"v":6.3,"f":null},{"v":8.1,"f":null}]},
+	{"c":[{"v":1996,"f":null},{"v":7.2,"f":null},{"v":6.4,"f":null},{"v":8.2,"f":null}]},
+	{"c":[{"v":1997,"f":null},{"v":6.7,"f":null},{"v":6,"f":null},{"v":7.5,"f":null}]},
+	{"c":[{"v":1998,"f":null},{"v":4.9,"f":null},{"v":3.9,"f":null},{"v":6.2,"f":null}]},
+	{"c":[{"v":1999,"f":null},{"v":4.4,"f":null},{"v":3.9,"f":null},{"v":5,"f":null}]},
+	{"c":[{"v":2000,"f":null},{"v":3.9,"f":null},{"v":3.1,"f":null},{"v":4.9,"f":null}]},
+	{"c":[{"v":2001,"f":null},{"v":4,"f":null},{"v":3.2,"f":null},{"v":5,"f":null}]},
+	{"c":[{"v":2002,"f":null},{"v":5,"f":null},{"v":4.1,"f":null},{"v":6,"f":null}]},
+	{"c":[{"v":2003,"f":null},{"v":6.3,"f":null},{"v":5.5,"f":null},{"v":7.2,"f":null}]},
+	{"c":[{"v":2004,"f":null},{"v":6.7,"f":null},{"v":5.8,"f":null},{"v":7.6,"f":null}]},
+	{"c":[{"v":2005,"f":null},{"v":7.6,"f":null},{"v":6.7,"f":null},{"v":8.7,"f":null}]},
+	{"c":[{"v":2006,"f":null},{"v":7.7,"f":null},{"v":6.5,"f":null},{"v":9,"f":null}]},
+	{"c":[{"v":2007,"f":null},{"v":8,"f":null},{"v":6.6,"f":null},{"v":9.6,"f":null}]},
+	{"c":[{"v":2008,"f":null},{"v":7.6,"f":null},{"v":6.5,"f":null},{"v":8.8,"f":null}]},
+	{"c":[{"v":2009,"f":null},{"v":9.5,"f":null},{"v":8.9,"f":null},{"v":10.2,"f":null}]},
+	{"c":[{"v":2010,"f":null},{"v":10.8,"f":null},{"v":9.8,"f":null},{"v":11.9,"f":null}]},
+	{"c":[{"v":2011,"f":null},{"v":12.7,"f":null},{"v":12.4,"f":null},{"v":13.1,"f":null}]}
+	]
+}

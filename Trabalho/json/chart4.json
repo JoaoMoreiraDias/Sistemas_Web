@@ -1,0 +1,25 @@
+{
+	"cols": [
+	{"id":"","label":"Tempo","pattern":"","type":"number"},
+	{"id":"","label":"Nenhum","pattern":"","type":"number"},
+	{"id":"","label":"Basico","pattern":"","type":"number"},
+	{"id":"","label":"Secundario e Pós Secundario","pattern":"","type":"number"},
+	{"id":"","label":"Superior","pattern":"","type":"number"}
+	],
+	"rows": [
+	{"c":[{"v":1998,"f":null},{"v":4.9,"f":null},{"v":2.6,"f":null},{"v":5.1,"f":null},{"v":6.9,"f":null},{"v":3.4,"f":null}]},
+	{"c":[{"v":1999,"f":null},{"v":4.4,"f":null},{"v":2.4,"f":null},{"v":4.6,"f":null},{"v":5.6,"f":null},{"v":3.7,"f":null}]},
+	{"c":[{"v":2000,"f":null},{"v":3.9,"f":null},{"v":1.7,"f":null},{"v":4.2,"f":null},{"v":4.6,"f":null},{"v":3.1,"f":null}]},
+	{"c":[{"v":2001,"f":null},{"v":4,"f":null},{"v":2.3,"f":null},{"v":4.2,"f":null},{"v":4.5,"f":null},{"v":3.4,"f":null}]},
+	{"c":[{"v":2002,"f":null},{"v":5,"f":null},{"v":2.6,"f":null},{"v":5.2,"f":null},{"v":5.5,"f":null},{"v":4.9,"f":null}]},
+	{"c":[{"v":2003,"f":null},{"v":6.3,"f":null},{"v":3.3,"f":null},{"v":6.5,"f":null},{"v":6.9,"f":null},{"v":6,"f":null}]},
+	{"c":[{"v":2004,"f":null},{"v":6.7,"f":null},{"v":3.6,"f":null},{"v":7.1,"f":null},{"v":6.9,"f":null},{"v":5.3,"f":null}]},
+	{"c":[{"v":2005,"f":null},{"v":7.6,"f":null},{"v":4.6,"f":null},{"v":8,"f":null},{"v":8,"f":null},{"v":6.3,"f":null}]},
+	{"c":[{"v":2006,"f":null},{"v":7.7,"f":null},{"v":5.6,"f":null},{"v":7.9,"f":null},{"v":8.5,"f":null},{"v":6.3,"f":null}]},
+	{"c":[{"v":2007,"f":null},{"v":8,"f":null},{"v":5.1,"f":null},{"v":8.3,"f":null},{"v":8.2,"f":null},{"v":7.5,"f":null}]},
+	{"c":[{"v":2008,"f":null},{"v":7.6,"f":null},{"v":5.4,"f":null},{"v":7.8,"f":null},{"v":7.9,"f":null},{"v":6.9,"f":null}]},
+	{"c":[{"v":2009,"f":null},{"v":9.5,"f":null},{"v":6.8,"f":null},{"v":10.3,"f":null},{"v":9.6,"f":null},{"v":6.4,"f":null}]},
+	{"c":[{"v":2010,"f":null},{"v":10.8,"f":null},{"v":9.2,"f":null},{"v":11.7,"f":null},{"v":11.3,"f":null},{"v":7.1,"f":null}]},
+	{"c":[{"v":2011,"f":null},{"v":12.7,"f":null},{"v":11.9,"f":null},{"v":13.7,"f":null},{"v":13.3,"f":null},{"v":9.2,"f":null}]}
+	]
+}

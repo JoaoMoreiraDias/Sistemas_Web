@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!--
+	Sistemas Web
+	Preencher uma caixa de opções dinamicamente através de código
+	mas com separação entre o que é criar os event listeners no
+	carregamento da página e a busca dos dados e a transformação
+	dos dados em opções do interface.
+
+	Ao início não é possível carregar os dados pois o botão está
+	inactivo através do atributo "disabled". Esta demonstração
+	conserta também o problema da repetição que existia na versão
+	anterior.
+
+	Na operação de ir buscar dados, esta demonstração faz uso
+	de JSON em vez de um array literal.
+-->
+
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>SW week 4 d</title>
+
+	<script src='scripts.js'></script>
+</head>
+<body>
+	<button id='fill'>buscar dados</button>
+	<button id='load' disabled>carregar</button>
+	<select id='cursos'>
+		<option>nenhum</option>
+	</select>
+</body>
+</html>

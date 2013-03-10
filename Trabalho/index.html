@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='pt' manifest="appcache/offline.appcache">
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html' charset='utf-8' />
+    <!--Codigo para permitir funcionamento cross-browser, algum do Google usado pelo API e o HTML5Shiv -->
+        <!--[if lt IE 8]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+            <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+            <script>
+                document.getElementsByTagName('html')[0].className = 'ie';
+            </script>
+            <![endif]-->
+
+        <!--[if lt IE 9]>
+            <script src='js/html5shiv.js'></script>
+            <![endif]-->
+
+            <meta name='author' content='João Moreira Dias' />
+            <meta name='description' content='Esta aplicação aplicação apresenta varias fontes de dados relativas a empregabilidade em Portugal em tabela e de forma gráfica, e tem uma funcionalidadede de procura de trabalho em Portugal.  As frameworks usadas são jQuery e Twitter Bootstrap. A fonte de dados foi a PORDATA.'/>
+            <meta name='keywords' content='trabalho, sistemas, web, html5, css, javascript, emprego, desemprego, portugal, taxa'/>
+
+            <title>Empregabilidade em Portugal - Aplicação Sistemas Web 2012/2013 - 24972</title>
+
+            <link href='css/bootstrap.min.css' rel='stylesheet'/>
+            <link href='css/site.css' rel='stylesheet' />
+            <link href='css/bootstrap-responsive.min.css' rel='stylesheet' />
+
+            <script type='text/javascript' src='js/jquery.min.js'></script>
+            <script type='text/javascript' src='js/bootstrap.min.js'></script>
+
+            <script type='text/javascript' src="http://www.google.com/jsapi/"></script>
+            <script type="text/javascript">
+            google.load('search', '1');
+            google.load('jquery', '1.4.2');
+            google.load('jqueryui', '1.7.2');
+            google.load('visualization', '1', {
+                'packages': ['corechart']
+            });
+            </script>
+
+            <script type='text/javascript' src='js/site.js'></script>
+        </head>
+
+        <body>
+            <div id='cabecalho'>
+            	<h1>Empregabilidade em Portugal.</h1>
+            </div>
+            <div id='opecoes'>
+            	<h3>Opções:</h3> 
+            </div>
+            <p>
+                <form id='formA'>
+                    <label classe='radio'>
+                        <input type="radio" name="opcao" id="btnbd1" value="bd1" />Ofertas de emprego por actividade econmica
+                        <!--<label for=" sizeSmall">Ofertas de emprego por actividade econmica</label>--></label>
+                        <label class='radio'>
+                            <input type="radio" name="opcao" id="btnbd2" value="bd2" />Ofertas de emprego por tipo de emprego
+                            <!--<label for=" sizeSmall">Ofertas de emprego por tipo de des emprego</label>--></label>
+                            <label class='radio'>
+                                <input type="radio" name="opcao" id="btnbd3" value="bd3" />Taxa de desemprego por grupo etário
+                                <!--<label for=" sizeSmall">Taxa de desemprego por grupo etário</label>--></label>
+                                <label class='radio'>
+                                    <input type="radio" name="opcao" id="btnbd4" value="bd4" />Taxa de desemprego por nivel de escolaridade
+                                    <!--<label for=" sizeSmall">Taxa de desemprego por nivel de escolaridade</label>--></label>
+                                    <label class='radio'>
+                                        <input type="radio" name="opcao" id="btnbd5" value="bd5" />Taxa de desemprego por sexo
+                                        <!--<label for=" sizeSmall">Taxa de desemprego por sexo</label>--></label>
+                                    </form>
+                                </p>
+                                <!--Tabela de dados-->
+                                <div id='divTabela'></div>
+                                <!--Google Charts-->
+                                <div id="chart_div" style="width:400; height:300"></div>
+                                <!--Feed RSS/Web service-->
+                                <div id='rss'></div>
+                                <!--Tempo de ultima vizita, uso de cookies-->
+                                <div>Nota: Todos os dados aqui usados foram recolhidos pela PORDATA e não me responsabilizo por inconsistencias nos dados.</div>
+                                <p>&nbsp;</P>
+                                <div id='tempo'></div>
+                            </body>
+                            </html>

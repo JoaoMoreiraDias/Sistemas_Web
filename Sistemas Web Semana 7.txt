@@ -1,0 +1,3 @@
+Uso do PHP - Contornar o Same-Origine Policy
+
+IE nao tem addeventlistner tem attach event.

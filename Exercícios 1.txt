@@ -1,0 +1,36 @@
+JSON 
+1) O que seginifica JSON? 
+JavaScript Object Notation
+2) Porquê usar JSON em vez de XML? 
+JSON é mais efficaz, visual, "fat-free" e mais leve nas largura de banda.
+3) Em Javascript, para converter JSON na sua representação nativa usa-se a função... 
+JSON.parse(); (ou JSON.stringify(); ?????????)
+4) Qual é a representação JSON de um array de 10 números inteiros começando em 50 e terminando em 59? 
+["50","51","52","53","54","55","56","57","58","59"]
+
+Ajax
+1) O que seginifica AJAX? 
+Asynchronous JavaScript and XML
+2) Quais são as vantagens de Ajax sobre o modelo tradicional da web. 
+Os tecnologias AJAX permited criar aplicaçõens web com comunicação asincrona no modelo cliente-servidor.
+3) Dê cinco exemplos de formatos de dados que podem ser usados com Ajax. 
+JSON, TXT, HTML, XML, CSU.
+4) Como se recupera dados que foram pedidos por Ajax se estiverem no formato JSON? 
+XMLHttpRequest com o commando GET ?????
+5) Como se recupera dados que foram pedidos por Ajax se estiverem no formato XML? 
+XMLHttpRequest com o commando GET ?????
+
+Same-Origin Policy 
+1) O que é? 
+Conceito de segurança que permite que scripts possam acessar páginas do mesmo site a qual pertencem sem restrições específicas, mas bloqueia o acesso a páginas de sites diferentes.
+2) Qual é a limitação dos pedidos Ajax? 
+Está limitado ao servidor que nos serviou a pagina.
+3) O que aconteceria se não existisse esta restrição? 
+Todos as paginas podiam puxar informação de outras sites, sem restriçoens, resultando em plagio e desvio de trafego. Também aumenta o risco de de DDoS
+4) Porque é que esta restrição também se aplica a sub-domínios? 
+XXXXXXXXXXXX?????
+5) Descreva como contornar esta restricção em segurança. 
+Lado do cliente:
+Em browsers open source pode-se tirar o bloco de codigo que trata do SOP.
+Lado do servidor:
+Uso de PHP.

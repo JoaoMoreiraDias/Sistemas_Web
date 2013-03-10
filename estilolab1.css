@@ -1,0 +1,32 @@
+li, ul {
+	list-style-type: none; /*Retira os bullet points*/
+	display: inline; /*Mete tudo na mesma linha*/
+	padding-left: 0; /*Remove o padding ha esquerda*/
+}
+
+ul ul li{
+	display: none; /*Fica escondido*/
+}
+
+ /*X:hover=utilizador mete o rato por cima de X*/
+
+.menu li:hover li{
+	display: block; /*Opcoes vao aparecer alinhados numa coluna*/
+}
+
+.menu li:hover ul{
+	position: absolute; /*Posicionado em relação ao pai*/
+	top: 1.5em;
+}
+
+.menu > li{
+	position: relative; /*Posicionado em relação ao pai*/
+}
+
+.menu{
+	display: block; /*Opcoes vao aparecer alinhados numa coluna*/
+	/*Alinhamento no Dead Ceneter, nao é a unica maneira*/
+	margin: 0 auto;
+	width: 250px;
+
+}

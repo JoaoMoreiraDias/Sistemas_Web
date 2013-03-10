@@ -1,0 +1,2 @@
+Web services usam a porta 80, por isso funcionam sempre em todas as infrastuturas com internet.
+

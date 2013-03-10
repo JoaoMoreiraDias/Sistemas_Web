@@ -1,0 +1,5 @@
+JSON é um formato de dados.
+
+Manter a mesma atquitectura de dados. Subestituit o XML
+Serve para transferencia de dados entre cliente servidor.
+

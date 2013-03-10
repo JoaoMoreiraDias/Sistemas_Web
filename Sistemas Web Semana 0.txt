@@ -1,0 +1,26 @@
+HTTP
+----
+Propriedades relativas para aplicações:
+-Open standard
+V	Uso livre, aberto
+D	Segurança
+-Stateless
+V	Mais rapido e simples (nao tem que usar https que é mais pesado)
+D	Dados nao sao guardados, estado não é mantido. Session riding (segurança).
+-Caching
+V	Mais rapido opter informação depois da primeira vez
+D	Pode complicar a cronometração porque o caching ja esta a interferir com o tempo de espera. (no development de websites)
+-Point-to-point
+V	
+D
+
+----
+Cookie, depois de um pedido ao servidor, o estado do website é escrito numa cookie, todas as sesões possiveis estao no servidos e a cookies é a chave para a sessao. O cookie tem poucos campus simples, nao incluido palavras passes, so sessões.
+
+----
+Sublime, Notepad++, Visual Studio, Eclipse, Netbeans, WebMatrix, KompoZer, Dreamweaverm, FrontPage, etc.
+NAO HA EDITORES NO MINI-TESTE!
+
+----
+diveintohtml5.info - Ler o livro para a semana 1.
+validator.w4.org - Vai ser usado para avaliar os nosso trabalhos.

@@ -1,0 +1,19 @@
+{
+	"entradas" : [
+		{ "manteiga" : null },
+		{ "pão" : 0.2 }
+	],
+	"bebidas" : [
+		{ "coke" : 1.4 },
+		{ "pepsi" : 1.35 },
+		{ "water" : 0.8 }
+	],
+	"pratos" : [
+		{ "hamburger" : 4.05 },
+		{ "pizza" : 6.8 }
+	],
+	"sobremesas" : [
+		{ "café" : 0.65 },
+		{ "gelado" : 1.5 }
+	]
+}

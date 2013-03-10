@@ -1,0 +1,26 @@
+{
+	"cols": [
+	{"id":"","label":"Tempo","pattern":"","type":"number"},
+	{"id":"","label":"Primário","pattern":"","type":"number"},
+	{"id":"","label":"Secundário","pattern":"","type":"number"},
+	{"id":"","label":"Terciário","pattern":"","type":"number"},
+	{"id":"","label":"Ignorado","pattern":"","type":"number"}
+	],
+	"rows": [
+	{"c":[{"v":1997,"f":null},{"v":7.7,"f":null},{"v":0.4,"f":null},{"v":2.4,"f":null},{"v":4.8,"f":null},{"v":0.1,"f":null}]},
+	{"c":[{"v":1998,"f":null},{"v":9.5,"f":null},{"v":0.4,"f":null},{"v":3.6,"f":null},{"v":5.5,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":1999,"f":null},{"v":10.7,"f":null},{"v":0.6,"f":null},{"v":4.2,"f":null},{"v":6,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2000,"f":null},{"v":11.1,"f":null},{"v":0.5,"f":null},{"v":4.5,"f":null},{"v":6.1,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2001,"f":null},{"v":9.4,"f":null},{"v":0.4,"f":null},{"v":3.3,"f":null},{"v":5.7,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2002,"f":null},{"v":9.0,"f":null},{"v":0.4,"f":null},{"v":3.1,"f":null},{"v":5.5,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2003,"f":null},{"v":8.9,"f":null},{"v":0.5,"f":null},{"v":3.1,"f":null},{"v":5.3,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2004,"f":null},{"v":8.3,"f":null},{"v":0.2,"f":null},{"v":2.9,"f":null},{"v":5.1,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2005,"f":null},{"v":8.5,"f":null},{"v":0.2,"f":null},{"v":0.3,"f":null},{"v":5.3,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2006,"f":null},{"v":9.0,"f":null},{"v":0.3,"f":null},{"v":3.1,"f":null},{"v":5.7,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2007,"f":null},{"v":10.2,"f":null},{"v":0.3,"f":null},{"v":3.5,"f":null},{"v":6.4,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2008,"f":null},{"v":11.2,"f":null},{"v":0.5,"f":null},{"v":3.4,"f":null},{"v":7.3,"f":null},{"v":0.1,"f":null}]},
+	{"c":[{"v":2009,"f":null},{"v":11.2,"f":null},{"v":0.5,"f":null},{"v":3.1,"f":null},{"v":7.5,"f":null},{"v":0.1,"f":null}]},
+	{"c":[{"v":2010,"f":null},{"v":11.9,"f":null},{"v":0.5,"f":null},{"v":3.7,"f":null},{"v":7.7,"f":null},{"v":0,"f":null}]},
+	{"c":[{"v":2011,"f":null},{"v":9.4,"f":null},{"v":0.5,"f":null},{"v":2.8,"f":null},{"v":6.1,"f":null},{"v":0,"f":null}]}
+	]
+}

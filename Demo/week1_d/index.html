@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+	<meta charset='utf-8' />
+	<title>SW week 1 d</title>
+
+	<link rel='stylesheet' href='styles.css' />
+</head>
+<body>
+<!--
+	Versão melhorada (?) da demonstração anterior:
+
+	Retirado o espaço entre a palavra do elemento LABEL e o elemento INPUT
+		respectivo: o espaçamento é apresentação logo é feito por CSS.
+
+	Os dois primeiros INPUT têm um SPN irmão aparentemente sem conteúdo,
+		no entanto aparece a palavra "obrigatório" quando se passa o rato
+		por cima da LABEL.
+
+	Novo tipo de INPUT: date. No IE8/9 aparece como um campo de texto. Este
+		procedimento é comum a todos os browsers quando encontram um INPUT
+		de um tipo que desconheçam.
+
+	Novo atributo "placeholder" que serve para mostrar ao utilizador um
+		exemplo de endereço que deverá introduzir no INPUT. Antigamente
+		era preciso usar Javascript para atingir o mesmo efeito.
+
+	Pode ser adicionar o atributo "novalidate" ao elemento FORM para que os
+		browsers que suportam HTML 5 form validation ignorem as validações.
+		Neste exemplo parece não acontecer nada: isto é porque se não for
+		dado o atributo "action" no elemento FROM então a acção é a própria
+		página que o browser carrega quase instantaneamente quando estamos
+		a testar localmente.
+
+	Mesmo não usando HTML 5 form validation do browser pode ser útil manter
+	o atributo "required" (e outros) para aplicar o CSS (ver estilos).
+-->
+	<form>
+		<h1>login</h1>
+		<span class='msg erro'>Por favor preencha todos os campos.</span>
+		<label>email<input type='email' required placeholder='exemplo@upt.pt' /><span class='msg'></span></label>
+		<label>password<input type='password' required /><span class='msg'></span></label>
+		<label>captcha<input type='date' required /><span class='msg'>introduza a data de hoje</span></label>
+		<input type='submit' value='entrar' />
+	</form>
+</body>
+</html>
